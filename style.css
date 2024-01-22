@@ -1,0 +1,658 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.top {
+    padding-bottom: 100px;
+}
+
+.center {
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+}
+
+.header {
+    padding-top: 18px;
+    padding-bottom: 19px;
+    background-color: #222;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo_and_search {
+    display: flex;
+    align-items: center;
+}
+
+.header_logo {
+    margin-right: 41px;
+    transition: 0.3s;
+}
+
+.header_logo:hover {
+    transform: scale(1.1);
+}
+
+.header_search {
+    transition: 0.3s;
+}
+
+.header_search:hover {
+    transform: scale(1.1);
+}
+
+.nav_bar_icons {
+    margin-right: 25px;
+    transition: 0.3s;
+}
+
+.nav_bar_icons:hover {
+    transform: scale(1.1);
+}
+
+.top_info {
+    background-color: #F1E4E6;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_vertical_line {
+    padding-right: 16px;
+}
+
+.the_brand {
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.of_luxerio_fashion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.of_luxerio {
+    color: #222;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.fashion {
+    color: #F16D7F;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+.gender_category {
+    padding-top: 65px;
+    margin-bottom: 30px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.gender {
+    background-color: #211616;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.gender:hover {
+    transform: scale(1.1);
+}
+
+.gender_photo {
+    opacity: 0.3;
+}
+
+.link_text {
+    min-width: 154px;
+    height: 50px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.gender_text {
+    color: #F16D7F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.accesories {
+    background-color: #211616;
+    height: 180px;
+    width: 1140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.accesories:hover {
+    transform: scale(1.1);
+}
+
+.accesories_photo {
+    opacity: 0.3;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+
+.products_header {
+    margin-top: 96px;
+    margin-bottom: 6px;
+    color: #222;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.products_preview {
+    margin-bottom: 48px;
+    color: #9F9F9F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 30px;
+}
+
+.item {
+    background-color: #f8f8f8;
+    transition: 0.3s;
+}
+
+.item:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+}
+
+.prod2 {
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7E4E2;
+    justify-content: center;
+}
+
+.product_text {
+    padding: 24px 16px 24px 16px;
+}
+
+.product_heading {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.product_description {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #5D5D5D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.product_price {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.products_button {
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.button {
+    width: 212px;
+    height: 48px;
+    border-color: #ff6a6a;
+    background-color: #fff;
+    color: #F26376;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: 0.3s;
+}
+
+button:hover {
+    color: white;
+    background: #ff6a6a;
+    transition: 0.3s;
+    box-shadow: 0px 12px 10px -8px rgba(0, 0, 0, 0.1);
+
+}
+
+.service_information {
+    background-color: #222224;
+    padding-top: 104px;
+    padding-bottom: 104px;
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.service_item {
+    width: 360px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.service_img {
+    margin-bottom: 28px;
+}
+
+.service_heading {
+    color: #FBFBFB;
+    font-size: 19.96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.service_text {
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 13.972px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-top: 16px;
+}
+
+.mailing {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.mailing_background {
+    max-width: 100%;
+    opacity: 0.3;
+}
+
+.mailing_info {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.information_about_the_seller {
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.mailing_photo {
+    margin-bottom: 30px;
+}
+
+.text_about_the_seller {
+    color: #222224;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.mailing_form {
+    width: 557px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mailing_heading {
+    color: #222224;
+
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 167.2%;
+}
+
+.mailing_text {
+    color: #222224;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 167.2%;
+    margin-bottom: 32px;
+}
+
+
+.text-field__btn:hover {
+    background-color: #bdbdbd;
+}
+
+.email {
+    background-color: #E1E1E1;
+    color: #222224;
+    border: 1px #E1E1E1;
+    width: 256px;
+    height: 49px;
+    border-top-left-radius: 50cap;
+    border-bottom-left-radius: 50cap;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 22px;
+}
+
+
+
+.subscribe_butt {
+    background-color: #F16D7F;
+    border: 1px #F16D7F;
+    width: 100px;
+    height: 49px;
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-top-right-radius: 50cap;
+    border-bottom-right-radius: 50cap;
+}
+
+.footer {
+    padding-top: 24px;
+    padding-bottom: 23px;
+    background-color: #222224;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.support_date {
+    color: #FBFBFB;
+
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.social_network {
+    display: flex;
+    gap: 7px;
+}
+
+.social_nettwork_link:hover {
+    background-color: #F16D7F;
+}
+
+
+
+@media (max-width: 1024px) {
+    .center {
+        padding-left: calc(50% - 376px);
+        padding-right: calc(50% - 376px);
+    }
+
+    .header {
+        justify-content: space-between;
+        padding: 18px 32px;
+    }
+
+    .top_photo {
+        width: 386px;
+        height: 368px;
+    }
+
+    .the_brand {
+        font-size: 44px;
+    }
+
+    .of_luxerio {
+        font-size: 24px;
+    }
+
+    .fashion {
+        font-size: 24px;
+    }
+
+
+    .gender_category {
+        margin-bottom: 20px;
+        gap: 20px;
+    }
+
+    .gender img {
+
+        max-width: 100%;
+        ;
+    }
+
+    .accesories {
+        width: 735px;
+        height: 116px;
+    }
+
+    .accesories_photo {
+        height: 116px;
+    }
+
+    .products_header {
+        margin-top: 110px;
+        margin-bottom: 3px;
+    }
+
+    .products_preview {
+        margin-bottom: 73px;
+    }
+
+    .items {
+        grid-template-columns: repeat(2, 360px);
+    }
+
+    .product_text {
+        padding: 24px 29px 20px 18px;
+    }
+
+    .product_description {
+        margin-top: 13px;
+        margin-bottom: 18px;
+    }
+
+    .service_information {
+        gap: 48px;
+    }
+
+    .mailing_background {
+        height: 693px;
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .mailing_info {
+        flex-direction: column;
+        gap: 48px;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 18px 16px;
+    }
+
+    .nav_bar_icons {
+        margin: 0;
+    }
+
+    .nav_bar_icons2 {
+        display: none;
+    }
+
+    .top_info {
+        padding-top: 148px;
+        padding-bottom: 149px;
+    }
+
+    .top_photo {
+        display: none;
+    }
+
+    .the_brand {
+        font-size: 38px;
+    }
+
+    .of_luxerio_fashion {
+        font-size: 20px;
+    }
+
+    .content {
+        padding: 64px 16px;
+    }
+
+    .gender_category {
+        flex-direction: column;
+
+    }
+
+    .accesories {
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .accesories_photo {
+        object-fit: cover;
+        width: 100%;
+    }
+
+    .products {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .products_header {
+        margin: 0;
+    }
+
+    .products_preview {
+        margin-bottom: 65px;
+    }
+
+    .items {
+        grid-template-columns: repeat(1, 100%);
+        gap: 16px;
+    }
+
+    .products_button {
+        margin-top: 41px;
+        margin-bottom: 85px;
+
+    }
+
+    .mailing_info {
+        gap: 48;
+    }
+
+    .mailing_form {
+        width: 341px;
+    }
+
+    .mailing_text {
+        font-size: 14px;
+        margin-bottom: 22px;
+    }
+
+    .email {
+        width: 162.998px;
+        height: 46.935px;
+    }
+
+    .subscribe_butt {
+        width: 95.787px;
+        height: 46.935px;
+    }
+
+    .footer {
+        padding-top: 43px;
+        padding-bottom: 9px;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+
+}
